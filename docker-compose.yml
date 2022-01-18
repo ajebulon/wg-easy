@@ -1,6 +1,7 @@
 version: "3.8"
 services:
   wg-easy:
+    build: .
     env_file: 
       - ./.env
     container_name: wg-easy
